@@ -9,6 +9,7 @@
     --font-first: 'Krona-One', sans-serif;
     --font-second: 'Montserrat', sans-serif;
 }
+
 @media (max-width: 1200px) {
     .presentation {
         flex-direction: column;
@@ -48,8 +49,18 @@ body {
     box-sizing: border-box;
     background-color: var(--color-first);
     color: var(--color-second);
-
 }
+
+/*.whole-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 8px;
+    text-align: center;
+    font-family: var(--font-first);
+    font-style: italic;
+    font-size: 40px;
+    color: var(--color-third);
+}*/
 
 .header{
     padding: 0%;
@@ -60,7 +71,8 @@ body {
 
 .header_menu {
     display: flex;
-    width: fit-content;
+    justify-content: flex-start;
+    gap: 16px;
 }
 
 .header_menu_link {
@@ -72,39 +84,40 @@ body {
     text-decoration: none;
 }
 
-.header_menu_link.about {
-    margin-left: 20px;
-}
+
 
 .presentation {
-    margin: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
+    margin: 10%;
     margin-top: 5%;
-
 }
+
 .presentation_content{
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-.presentation_content_title{
+
+.presentation_content_title {
     font-size: 2.25rem;
     font-family: var(--font-first);
-
 }
+
 .title-highlight {
     color: var(--color-third);
 
 }
-.presentation_content_text{
+
+.presentation_content_text {
     font-size: 1.5rem;
     font-family: var(--font-second);
     display: flex;
 }
+
 .presentation_links{
     display: flex;
     flex-direction: column;
@@ -112,11 +125,13 @@ body {
     align-items: center;
     gap: 32px;
 }
+
 .links_title {
     font-family: var(--font-first);
     font-weight: 400;
     font-size: 1.5rem;
 }
+
 .presentation_links_link{
     justify-content: center;
     gap: 8px;
@@ -127,7 +142,7 @@ body {
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 20px 0;
     text-decoration: none;
     color: var(--color-second);
     font-family: var(--font-second);
