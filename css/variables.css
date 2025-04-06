@@ -1,0 +1,9 @@
+:root {
+    --color-first: #1E201E;
+    --color-second: #ECDFCC;
+    --color-third: #697565;
+    --color-hover: #272727;
+
+    --font-first: 'Krona One', sans-serif;
+    --font-second: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --color-first: #1E201E;
+    --color-second: #ECDFCC;
+    --color-third: #697565;
+    --color-hover: #272727;
+
+    --color-first-background: #0a0638;
+
+    --gradient-color-first: linear-gradient(to right, #430521, #742a4b);
+    --gradient-color-second: linear-gradient(to right, #ff7e5f, #feb47b);
+    --gradient-color-third: linear-gradient(to right, #000000, #000011);
+    --gradient-color-fourth: linear-gradient(to right, #D4AF37, #d4af37);
+
+    --font-first: 'Krona-One', sans-serif;
+    --font-second: 'Montserrat', sans-serif;
+    --font-third: 'Poppins', sans-serif;
+}

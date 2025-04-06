@@ -1,0 +1,44 @@
+
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--gradient-color-fourth);
+    color: var(--color-second);
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+}
+
+.btn-img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-links {
+    text-decoration: none;
+    color: var(--color-second);
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: linear-gradient(to left, #f89b54, #ff7e5f);
+    color: var(--color-first);
+    transform: scale(1.03);
+}

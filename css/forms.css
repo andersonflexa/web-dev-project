@@ -1,0 +1,110 @@
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.footer-links {
+    margin-top: 10px; /* Add spacing between footer content and links */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 5px;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* WhatsApp Button Styles */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; /* WhatsApp green */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add hover effects */
+}
+
+.whatsapp-button:hover {
+    background-color: #1da851; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.whatsapp-button i {
+    margin-right: 8px; /* Adds spacing between the icon and the text */
+    font-size: 1.2rem; /* Adjust icon size */
+    vertical-align: middle; /* Align icon with text */
+}
+
+/* Form Styles */
+form {
+    max-width: 500px;
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add glow effect */
+}
+
+form button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+form button:active {
+    transform: scale(0.95); /* Slight shrink effect on click */
+}
