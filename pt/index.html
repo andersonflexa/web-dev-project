@@ -1,66 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernanda Sampaio</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div id="body-container">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fernanda Sampaio</title>
-        <link rel="stylesheet" href="../styles/style.css">
-        <script src="../scripts/main.js"></script>
-    </head>
-
-    <body>
-        <header class="header">
-            <!-- Menu Bar -->
-            <div class="menu-bar">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="#principal"><p>FS</p></a>
             </div>
-            <!-- Navigation links-->
-            <nav class="header-menu-container">
-                <a class="header-menu-link" href="index.html">Principal</a>
-                <a class="header-menu-link about" href="about.html">Sobre mim</a>
-                <a class="header-menu-link services" href="services.html">Serviços</a>
-                <a class="header-menu-link contact" href="contact.html">Contato</a>
-            </nav>
-            <!-- Languages Flags-->
-            <div class="language-selector">
-                <a class="language-link" href="../pt/index.html">
-                    <img src="../assets/brazil-flag.png" alt="Brazilian Flag" class="flag-icon"><span class="language-text">pt</span>
-                </a>
-                <a class="language-link" href="../en/index.html">
-                    <img src="../assets/usa-flag.png" alt="USA Flag" class="flag-icon"><span class="language-text">en</span>
+            <ul class="nav-list-container">
+                <li class="nav-list"><a class="nav-list-link" href="#principal">Principal</a></li>
+                <li class="nav-list"><a class="nav-list-link" href="#sobremim">Sobre mim</a></li>
+                <li class="nav-list"><a class="nav-list-link" href="#serviços">Serviços</a></li>
+                <li class="nav-list"><a class="nav-list-link" href="#contato">Contato</a></li>
+            </ul>
+            <div class="language-container">
+                <a class="flag-link" href="index.html">
+                    <img src="../assets/usa-flag.png" class="flag-img" alt="USA Flag">
+                    <span class="flag-text">EN</span>
+
+                <a class="flag-link" href="../pt/index.html">
+                    <img src="../assets/brazil-flag.png" class="flag-img" alt="Brazil Flag">
+                    <span class="flag-text">PT</span>
                 </a>
             </div>
-        </header>
+        </nav>
 
-        <main class="presentation">
-            <section class="presentation_content">
-                <h1 class="presentation_content_title">Eleve seu negocio para um novo patamar<strong class="title-highlight"> com um gerenciamento de medias socias de alta qualidade.</strong></h1>
-                <p class="presentation_content_text">Olá, Eu sou Fernanda Sampaio, especialista em redes sociais, e eu posso ajudar seu negocio a prosperar e alcançar seu ponctial maximo.</p>
+        <section class="index-container" id="principal">
+            <div class="index-header">
+                <h1>Desbloqueie o potencial social da sua marca</h1>
+                <p>Descubra nossos serviços para midias sociais<br>
+                para acelear a visibilidade e engajamnento da sua marca.</p>
+                <p>Desde criação de conteudo a gerencimaneto, nós podemos te ajudar.</p>
+                <div class="btn-container">
+                    <h2>Conecte-se comigo</h2>
 
-                <div class="presentation_links">
-                    <h2 class="links_title">Conecte-se comigo através das minhas redes sociais:</h2>
-                    <a class="presentation_links_link" target="_blank" href="https://instagram.com/fernanda.sampaiol/">
-                        <img src="../assets/instagram.png">
-                        Instagram
-                    </a>
-                    <a class="presentation_links_link" target="_blank" href="https://linkedin.com/in/fernandasampaiolima">
-                        <img src="../assets/linkedin.png">
-                        Linkedin
+                    <button class="btn">
+                        <div><a  class="btn-links" target= "_blank" href="https://instagram.com/fernanda.sampaiol/"><img src="../assets/instagram.png" alt="Instagram" class="btn-img"></div>
+                        Instagram</a>
+                    </button>
+
+
+                        <button class="btn">
+                            <div><a class="btn-links" target="_blank" href="https://linkedin.com/in/fernandasampaiolima"><img src="../assets/linkedin.png" alt="LinkedIn" class="btn-img"></div>
+                            LinkedIn</a>
+                        </button>
                     </a>
                 </div>
-            </section>
-            <img class="image_front" src="../assets/Fernanda_Samapio.jpeg" alt="Fernanda Sampaio">
-        </main>
+            </div>
+            <div class="section-image">
+                <img src="../assets/fernandasmapaio1-1.jpg" alt="Fernanda Sampaio" class="profile-img">
+            </div>
+        </section>
 
-        <footer class="footer">
-            <div>
-                <p><span class="footer-highlight">Desenvolvido por Arrow Tech</span></p>
+        <section class="about" id="sobremim">
+            <div class="about-image">
+                <div class="image-dots"></div>
+                <img src="../assets/fernandasamapaio2-2.jpg" alt="Fernanda Sampaio" class="about-img">
+            </div>
+            <div class="about-text">
+                <h2>Sobre mim</h2>
+                <p>
+                    Hi there! My name is Fernanda Sampaio. I graduated in Law from Ceub University. After discovering my passion for social media, I quickly realized the immense potential it holds </br>
+                    for businesses to expand their reach and connect with a broader audience. To better serve this growing need, I pursued specialized courses in social media management through ONM.
+                </p>
+                <p>
+                    Today, I am a dedicated social media manager, ready to help your business achieve new heights and reach even more people.
+                </p>
+            </div>
+        </section>
+
+        <section class="services" id="serviços">
+            <h2 class="services-header">Serviços</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <h3>Content Creation</h3>
+                    <p>Crafting engaging and relevant content tailored to your brand's voice.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Community Management</h3>
+                    <p>Building and nurturing relationships with your audience.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Analytics & Reporting</h3>
+                    <p>Providing insights and strategies based on data-driven analysis.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Social Media Strategy</h3>
+                    <p>Developing a comprehensive plan to enhance your online presence.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Social Media Strategy</h3>
+                    <p>Developing a comprehensive plan to enhance your online presence.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Social Media Strategy</h3>
+                    <p>Developing a comprehensive plan to enhance your online presence.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contato">
+            <h2>Contato</h2>
+            <form action="mailto:youremail@example.com" method="POST" enctype="text/plain" class="contact-form">
+              <input type="text" name="name" placeholder="Nome" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <textarea name="message" placeholder="Messagem" rows="6" required></textarea>
+              <button type="submit">Enviar Email</button>
+            </form>
+
+            <div class="whatsapp-link">
+              <p>Se preferir pelo WhatsApp</p>
+              <a href="https://wa.me/5599999999999" target="_blank" class="whatsapp-button">
+                <i class="fab fa-whatsapp"></i> Messagem pelo WhatsApp
+              </a>
+            </div>
+        </section>
+
+        <footer class="footer-container">
+            <div class="footer-content">
+                <p>&copy; 2025 Fernanda Sampaio. Todos os direitos reservados.</p>
             </div>
         </footer>
-
-    </body>
+    </div>
+</body>
 </html>
